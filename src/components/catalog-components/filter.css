@@ -1,0 +1,49 @@
+.category-item-selected {
+    font-weight: bold;
+}
+
+.category-item-1 {
+    margin-left: 10px;
+}
+
+.category-item-2 {
+    margin-left: 20px;    
+}
+
+.category-item:hover {
+    color: #00AD64;
+    cursor: pointer;
+}
+
+.filter-category-container {
+    border-bottom: lavender 1px solid;     
+}
+
+
+.filer-price-input-container {
+    display: flex;
+}
+
+.filter-price-input-first {
+    border-radius: 4px 0 0 4px ;
+}
+
+.filter-price-input-second {
+    border-radius: 0 4px 4px 0;
+    position: relative;
+    right: 2px;
+}
+
+.filter-price-input:focus {
+    border: 2px #00AD64 solid;
+    z-index: 9;  
+}
+
+.filter-price-input {
+    padding-left: 15px;
+    width: 130px;
+    height: 40px;  
+    border: 2px lavender solid;
+    outline: none;
+    font-size: 20px;
+}

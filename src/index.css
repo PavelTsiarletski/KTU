@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.hidden {
+  display: none !important;
+}

@@ -1,0 +1,86 @@
+@import url(//db.onlinewebfonts.com/c/e289e87d35347b39e1a0eae4fe7e09d0?family=MagallanesCondW00-Bold);
+
+@font-face {font-family: "MagallanesCondW00-Bold"; src: url("//db.onlinewebfonts.com/t/e289e87d35347b39e1a0eae4fe7e09d0.eot"); src: url("//db.onlinewebfonts.com/t/e289e87d35347b39e1a0eae4fe7e09d0.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/e289e87d35347b39e1a0eae4fe7e09d0.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/e289e87d35347b39e1a0eae4fe7e09d0.woff") format("woff"), url("//db.onlinewebfonts.com/t/e289e87d35347b39e1a0eae4fe7e09d0.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/e289e87d35347b39e1a0eae4fe7e09d0.svg#MagallanesCondW00-Bold") format("svg"); }
+
+@media screen and (max-width: 1023px) {
+    .logo-text{
+        display: none;
+    }
+}
+.header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    border-bottom: lavender 1px solid;
+    display: flex;
+    justify-content: center;
+    height: 72px;
+    align-items: center;
+    user-select: none;
+    padding: 0 5px;
+    z-index: 99;
+}
+
+.header-body {
+    max-width: 1360px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+}
+.logo {
+    display: flex;
+    font-size: 40px;
+    color: #00AD64;
+    font-family: "MagallanesCondW00-Bold";
+    font-weight: 900;
+}
+
+.logo p {
+    margin-left: 7px;
+}
+
+
+.content-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.main-page {
+    width: 1366px;
+}
+
+.search-container {
+    width: 480px;
+    display: flex;
+    align-items: center;
+}
+
+.search {
+    box-shadow: inset 0 0 0 1px #c7cbce, 0 2px 4px rgba(0,0,0,.1);
+    border-radius: 4px;
+}
+
+.icon-locate {
+    color: #acb6c0;
+}
+
+.locate {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+.btn-group-spaced {
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+    justify-items: flex-end;
+}
+

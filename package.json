@@ -1,0 +1,32 @@
+{
+  "name": "cra-redux-saga-template",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "mineral-ui-icons": "^0.5.0",
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.26",
+    "react-loader-spinner": "^3.1.4",
+    "react-moment": "^0.9.2",
+    "react-redux": "^5.0.7",
+    "react-scripts": "1.1.5",
+    "redux": "^4.0.0",
+    "redux-saga": "^0.16.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "@emotion/core": "^10.0.17",
+    "@emotion/is-prop-valid": "^0.8.2",
+    "@emotion/styled": "^10.0.17",
+    "emotion-theming": "^10.0.18",
+    "mineral-ui": "^0.58.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-redux-toastr": "^7.5.1"
+  }
+}
